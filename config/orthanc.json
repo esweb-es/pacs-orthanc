@@ -69,10 +69,8 @@
   "HttpTimeout": 60,
   "HttpsVerifyPeers": true,
   "HttpsCACertificates": "/etc/ssl/certs/ca-certificates.crt",
-  "UserMetadata": {
-  },
-  "UserContentType": {
-  },
+  "UserMetadata": {},
+  "UserContentType": {},
   "StableAge": 60,
   "StrictAetComparison": false,
   "StoreMD5ForAttachments": true,
@@ -117,31 +115,29 @@
     "W001_TagsBeingReadFromStorage": true,
     "W002_InconsistentDicomTagsInDb": true
   },
-
   "OrthancExplorer2": {
     "Enable": true,
     "IsDefaultOrthancUI": true,
     "Theme": "dark",
     "CustomTitle": "CAREMA",
     "UiOptions": {
-    "EnableStudyList": true,
-    "EnableUpload": true,
-    "EnableDicomModalities": true,
-    "EnableDeleteResources": true,
-    "EnableDownloadZip": true,
-    "EnableDownloadDicomDir": false,
-    "EnableDownloadDicomFile": true,
-    "EnableAnonymization": true,
-    "EnableModification": true,
-    "EnableSendTo": true,
-    "EnableApiViewMenu": false,
-    "EnableSettings": false,
-    "EnableLinkToLegacyUi": false,
-    "EnableChangePassword": true,
-    "EnableEditLabels": true,
-    "AvailableLabels": [],
-    "EnableShares": false
+      "EnableStudyList": true,
+      "EnableUpload": true,
+      "EnableDicomModalities": true,
+      "EnableDeleteResources": true,
+      "EnableDownloadZip": true,
+      "EnableDownloadDicomDir": false,
+      "EnableDownloadDicomFile": true,
+      "EnableAnonymization": true,
+      "EnableModification": true,
+      "EnableSendTo": true,
+      "EnableApiViewMenu": false,
+      "EnableSettings": false,
+      "EnableLinkToLegacyUi": false,
+      "EnableChangePassword": true,
+      "EnableEditLabels": true,
+      "AvailableLabels": [],
+      "EnableShares": false
     }
-
   }
 }

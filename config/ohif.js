@@ -21,7 +21,7 @@ window.config = {
   },
   whiteLabeling: {
     /* Used to replace the default Logo */
-    createLogoComponentFn: function(React) {
+    createLogoComponentFn: function (React) {
       return React.createElement('a', {
         target: '_self',
         rel: 'noopener noreferrer',
@@ -138,5 +138,5 @@ window.config = {
 
   // studyListFunctionsEnabled is set to true to enable DICOM uploading
   studyListFunctionsEnabled: true
-  
+
 };
