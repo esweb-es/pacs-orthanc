@@ -6,7 +6,6 @@ document.addEventListener("DOMContentLoaded", function () {
         if (element.childNodes.length === 1 && element.childNodes[0].nodeType === Node.TEXT_NODE) {
             element.textContent = element.textContent.replace(/StudyList|Study List/g, "Lista de estudios");
         }
-        element.style.backgroundColor = "red";
     });
 });
 
